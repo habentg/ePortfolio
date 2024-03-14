@@ -868,8 +868,16 @@ main {
 }
 
 
+.social-links a {
+  display: inline-block;
+  margin-right: 20px; /* Adjust spacing between icons */
+}
 
-
+.social-links img {
+  width: 30px; /* Adjust icon size */
+  height: auto;
+  border-radius: 20%;
+}
 
 /*-----------------------------------*\
   #PORTFOLIO
