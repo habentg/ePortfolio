@@ -42,7 +42,7 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/cropedLinkedin.jpg" alt="Haben Tesfamariam" width="100">
+          <img src="./assets/images/circularProfile.png" alt="Haben Tesfamariam">
         </figure>
 
         <div class="info-content">
@@ -125,17 +125,17 @@
 
         <div class="separator"></div>
 
-        <ul class="social-list">
+        <!-- <ul class="social-list">
 
          
 
           <li class="social-item">
             <a href="https://www.linkedin.com/in/habentesfamariamgaim/" target="_blank" class="social-link">
-              <ion-icon name="logo-linkdin"></ion-icon>
+              <ion-icon name="logo-linkdin"><img src="./assets/images/linkdinlog.png" alt="" srcset=""></ion-icon>
             </a>
           </li>
 
-        </ul>
+        </ul> -->
 
       </div>
 
@@ -239,7 +239,7 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="./assets/images/icon-dev.svg" alt="Systems Programming icon" width="40">
               </div>
 
               <div class="service-content-box">
@@ -262,7 +262,7 @@
                 <h4 class="h4 service-item-title">UI/UX</h4>
 
                 <p class="service-item-text">
-                  Learning to professional development of applications UI/UX for iOS, Android and Desktop.
+                  Learning to professional development of Mobile App UI/UX for iOS, Android and Desktop.
                 </p>
               </div>
 
@@ -579,12 +579,24 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Web Design</h5>
+                <h5 class="h5">HTML & CSS</h5>
                 <data value="80">80%</data>
               </div>
 
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
               </div>
 
             </li>
@@ -631,30 +643,30 @@
       <article class="portfolio" data-page="portfolio">
 
         <header>
-          <h2 class="h2 article-title">Portfolio</h2>
+          <h2 class="h2 article-title">Projects</h2>
         </header>
 
         <section class="projects">
 
-          <ul class="filter-list">
+          <!-- <ul class="filter-list">
 
             <li class="filter-item">
               <button class="active" data-filter-btn>All</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>Full-stack</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>Mobile App</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>Systems Programming</button>
             </li>
 
-          </ul>
+          </ul> -->
 
           <div class="filter-select-box">
 
@@ -675,15 +687,15 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>Full-stack</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Mobile App</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>Systems Programming</button>
               </li>
 
             </ul>
@@ -692,168 +704,98 @@
 
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Systems Programming">
+              <a href="https://github.com/habentg/ft_ircserv.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="./assets/images/irc.png" alt="Ft_irc" loading="lazy" height="800">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
+                <h3 class="project-title">Ft_irc</h3>
+                
+                <p class="project-category">Systems Programming</p>
+                <p style="color: lightgray; font-size: 11px;"> implementation of the text based communication protocol (irc)</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Systems Programming">
+              <a href="https://github.com/habentg/minishell.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="./assets/images/minishell.jpg" alt="minishell" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
+                <h3 class="project-title">Minishell</h3>
+                
+                <p class="project-category">Systems Programming</p>
+                <p style="color: lightgray; font-size: 11px;"> A shell program that replicates the SHELL behavour.</p>
 
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Full-stack">
+              <a href="https://github.com/habentg/42_philo.git">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="./assets/images/philo.jpg" alt="Philosophers" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Dining Philosophers</h3>
 
-                <p class="project-category">Web design</p>
-
+                <p class="project-category">Systems Programming</p>
+                <p style="color: lightgray; font-size: 11px;"> An implementation of multi-threading program for shared resourses.</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Systems Programming">
+              <a href="https://github.com/habentg/42_push_swap.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="./assets/images/pushsawp.png" alt="dsm." loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Push Swap</h3>
 
-                <p class="project-category">Applications</p>
-
+                <p class="project-category">Systems Programming</p>
+                <p style="color: lightgray; font-size: 11px;"> A sorting program with limmited instructions.</p>
               </a>
             </li>
 
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+            <li class="project-item  active" data-filter-item data-category="Full-stack">
+              <a href="https://github.com/habentg/42_push_swap.git" target="_blank">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="./assets/images/htg-logo.png" alt="dsm." loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">Portfolio</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Web App</p>
+                <p style="color: lightgray; font-size: 11px;"> A portfolio website that showcases my skills.</p>
 
               </a>
             </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
           </ul>
 
         </section>
